@@ -1,0 +1,54 @@
+@media (max-width: 980px) {
+  .about-us {
+    margin-left: 0 !important;
+  }
+
+  .about-us__container,
+  .about-us__context {
+    width: 100%;
+  }
+
+  .about-us__container {
+    padding: 0 2.5rem;
+  }
+
+  .gray-mountain-image {
+    height: 40rem;
+  }
+
+  .our-service {
+    padding: 2.5rem;
+    margin-left: 0 !important;
+    min-height: 0;
+  }
+
+  .our-service__head-text {
+    margin-top: 4.5rem;
+    width: max-content;
+  }
+
+  .our-service__funeral {
+    grid-auto-flow: row;
+    grid-template-columns: 1fr;
+    width: auto;
+  }
+
+  .our-service__funeral__head-text {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .testimonials {
+    margin-bottom: 0;
+    min-height: 0;
+  }
+
+  .testimonials > * {
+    margin-left: 0 !important;
+  }
+
+  .testimonials-text {
+    margin: 7rem 0 0 2.5rem !important;
+    width: max-content;
+  }
+}
